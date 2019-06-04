@@ -45,7 +45,7 @@ table {
 body {
   background: #FFBFCA;
   color: #333333;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Droid Sans Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 18px;
 }
 
@@ -109,6 +109,12 @@ strong, header { font-weight: bold }
   padding: 3em 3em;
   margin: -5em auto;
   border: 3px dashed #FFCFD7;
+}
+
+@media only screen and (max-width: 600px) {
+  .events article {
+    padding: 1em;
+  }
 }
 
 ul { 
