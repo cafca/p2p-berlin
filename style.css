@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #FFBFCA;
+  color: #333333;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 18px;
+}
+
+a {
+  color: #FF8398;
+  text-decoration: none;
+}
+
+a:hover { color: blue }
+
+.container {
+  margin-top: 5rem;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background: none;
+  padding: 0.4rem 0.5rem 0.1rem 0.5rem;
+  margin: 1rem 0 1rem 0;
+  font-size: 18px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  border: none;
+  color: #333333;
+  border-bottom: 2px solid #333;
+}
+
+button:hover {
+  background: blue;
+  color: white;
+  padding: 0.4rem 0.5rem 0.1rem 0.5rem;
+  border-bottom: 2px solid #333;
+}
+
+button:active {
+  background: #EE26C0;
+  color: #FFFFFF;
+  border-bottom: 2px solid #EE26C0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+em { font-style: italic; }
+
+header { margin: 0 0 1.5rem 0; }
+
+section {
+  max-width: 42em;
+  padding: 10px;
+  margin: 2em auto 5em;
+}
+
+strong, header { font-weight: bold }
+
+.events article { 
+  padding: 3em 3em;
+  margin: -5em auto;
+  border: 3px dashed #FFCFD7;
+}
+
+ul { 
+    list-style: katakana;
+    list-style-position: inside;
+}
+
+section.imprint {
+  color: #80676B;
+}
