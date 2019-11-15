@@ -89,25 +89,29 @@ button:active {
   border-bottom: 2px solid #EE26C0;
 }
 
-p {
+p, ul {
     margin-bottom: 1em;
 }
 
 em { font-style: italic; }
 
-header { margin: 0 0 1.5rem 0; }
+header { margin: 0 0 2.5em 0; }
 
 section {
   max-width: 42em;
   padding: 10px;
-  margin: 2em auto 5em;
+  margin: 1em auto;
 }
 
 strong, header { font-weight: bold }
 
+.events {
+  padding-top: -5em;
+}
+
 .events article { 
-  padding: 3em 3em;
-  margin: -5em auto;
+  padding: 2em 3em 1em;
+  margin: 0 auto 1em;
   border: 3px dashed #FFCFD7;
 }
 
@@ -119,7 +123,8 @@ strong, header { font-weight: bold }
 
 ul { 
     list-style: katakana;
-    list-style-position: inside;
+    list-style-position: outside;
+    padding-left: 2em;
 }
 
 section.imprint {
