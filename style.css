@@ -56,6 +56,10 @@ a {
 
 a:hover { color: blue }
 
+a > header {
+  color: #333333
+}
+
 .container {
   margin-top: 5rem;
   max-width: 100%;
