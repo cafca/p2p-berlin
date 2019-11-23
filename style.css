@@ -60,6 +60,15 @@ a > header {
   color: #333333
 }
 
+.rss-feed {
+  float: right;
+}
+
+.rss-feed img {
+  width: 14px;
+  height: 14px;
+}
+
 .container {
   margin-top: 5rem;
   max-width: 100%;
@@ -72,7 +81,6 @@ a > header {
 button {
   background: none;
   padding: 0.4rem 0.5rem 0.1rem 0.5rem;
-  margin: 1rem 0 1rem 0;
   font-size: 18px;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   border: none;
@@ -117,6 +125,10 @@ strong, header { font-weight: bold }
   padding: 2em 3em 1em;
   margin: 0 auto 1em;
   border: 3px dashed #FFCFD7;
+}
+
+.events button {
+  margin: 1rem 0 1rem 0;
 }
 
 @media only screen and (max-width: 600px) {
