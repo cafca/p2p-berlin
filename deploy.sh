@@ -1,0 +1,1 @@
+rsync -avz --delete ./* pv@vincentahrend.com:/var/www/p2p-berlin/

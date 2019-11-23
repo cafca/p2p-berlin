@@ -11,6 +11,11 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "deploy",
+            "type": "shell",
+            "command": "./deploy.sh"
         }
     ]
 }
