@@ -15,7 +15,8 @@
         {
             "label": "deploy",
             "type": "shell",
-            "command": "./deploy.sh"
+            "command": "./deploy.sh",
+            "problemMatcher": []
         }
     ]
 }
