@@ -1,3 +1,4 @@
+/* prettier-ignore */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,6 +20,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+/* prettier-ignore */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -26,15 +28,19 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1.2;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 table {
@@ -43,21 +49,24 @@ table {
 }
 
 body {
-  background: #FFBFCA;
+  background: #ffbfca;
   color: #333333;
-  font-family: "Droid Sans Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Droid Sans Mono", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
   font-size: 18px;
 }
 
 a {
-  color: #E65E75;
+  color: #e65e75;
   text-decoration: none;
 }
 
-a:hover { color: blue }
+a:hover {
+  color: blue;
+}
 
 a > header {
-  color: #333333
+  color: #333333;
 }
 
 .rss-feed {
@@ -81,7 +90,8 @@ button {
   background: none;
   padding: 0.4rem 0.5rem 0.1rem 0.5rem;
   font-size: 18px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
   border: none;
   color: #333333;
   border-bottom: 2px solid #333;
@@ -95,18 +105,23 @@ button:hover {
 }
 
 button:active {
-  background: #EE26C0;
-  color: #FFFFFF;
-  border-bottom: 2px solid #EE26C0;
+  background: #ee26c0;
+  color: #ffffff;
+  border-bottom: 2px solid #ee26c0;
 }
 
-p, ul {
-    margin-bottom: 1em;
+p,
+ul {
+  margin-bottom: 1em;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
-header { margin: 0 0 2.5em 0; }
+header {
+  margin: 0 0 2.5em 0;
+}
 
 section {
   max-width: 42em;
@@ -114,25 +129,28 @@ section {
   margin: 1em auto;
 }
 
-strong, header { font-weight: bold }
+strong,
+header {
+  font-weight: bold;
+}
 
 h2 {
   font-weight: bold;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
-h3  {
-  margin-bottom: .5em;
+h3 {
+  margin-bottom: 0.5em;
 }
 
 .events {
   padding-top: -5em;
 }
 
-.events article { 
+.events article {
   padding: 2em 3em 1em;
   margin: 0 auto 1em;
-  border: 3px dashed #FFCFD7;
+  border: 3px dashed #ffcfd7;
 }
 
 .events button {
@@ -145,7 +163,7 @@ h3  {
   }
 
   .rss-feed .desktop {
-    display: none
+    display: none;
   }
 
   .rss-feed .mobile {
@@ -153,12 +171,12 @@ h3  {
   }
 }
 
-ul { 
-    list-style: katakana;
-    list-style-position: outside;
-    padding-left: 2em;
+ul {
+  list-style: katakana;
+  list-style-position: outside;
+  padding-left: 2em;
 }
 
 section.imprint {
-  color: #80676B;
+  color: #80676b;
 }
