@@ -69,14 +69,6 @@ a > header {
   color: #333333;
 }
 
-.rss-feed {
-  float: right;
-}
-
-.rss-feed .mobile {
-  display: none;
-}
-
 .container {
   margin-top: 5rem;
   max-width: 100%;
@@ -161,20 +153,16 @@ h3 {
   .events article {
     padding: 1em;
   }
-
-  .rss-feed .desktop {
-    display: none;
-  }
-
-  .rss-feed .mobile {
-    display: inline-block;
-  }
 }
 
 ul {
   list-style: katakana;
   list-style-position: outside;
   padding-left: 2em;
+}
+
+summary li {
+  margin-bottom: 0.5em;
 }
 
 section.imprint {
